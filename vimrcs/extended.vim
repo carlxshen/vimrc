@@ -7,8 +7,7 @@
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set font according to system
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""" " Set font according to system
 if has("mac") || has("macunix")
     set gfn=M+\ 2m\ light:h15,Menlo:h15
 elseif has("win16") || has("win32")
@@ -36,9 +35,9 @@ if has("gui_running")
     set background=dark
     colorscheme peaksea
 else
-    set background=dark
-    colorscheme gruvbox
-    let g:colors_name="gruvbox"
+    set background=light
+    colorscheme PaperColor
+    let g:colors_name="PaperColor"
 endif
 
 
